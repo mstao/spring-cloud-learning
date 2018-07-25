@@ -19,6 +19,8 @@
       <module>service-config-client</module>
       <module>service-conifg-ser</module>
       <module>eureka-server-cluster</module>
+        <module>service-turbine</module>
+      <module>service-lucy</module>
     </modules>
 
     <name>spring-cloud-parent</name>
@@ -58,12 +60,12 @@
     </dependencies>
   </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+          </plugin>
+      </plugins>
+  </build>
 </project>

@@ -1,4 +1,4 @@
-package me.mingshan.servicehi;
+package me.mingshan.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrix
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class ServicehiApplication {
+public class ServicelucyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServicehiApplication.class, args);
+        SpringApplication.run(ServicelucyApplication.class, args);
     }
 
     @Value("${server.port}")
