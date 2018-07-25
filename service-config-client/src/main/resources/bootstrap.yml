@@ -1,22 +1,22 @@
 spring:
   cloud:
-      config:
-        name: microservice #对应的配置服务中的应用名称
-        profile: dev #对应配置服务中的{profile}
-        label: master #对应的分支
-        uri: http://localhost:8888/
-        discovery:
-          enabled: true #启用发现服务功能
-          service-id: service-config-ser #指定服务名称
-      bus:
+    config:
+      name: microservice #对应的配置服务中的应用名称
+      profile: dev #对应配置服务中的{profile}
+      label: master #对应的分支
+      uri: http://localhost:8888/
+      discovery:
+        enabled: true #启用发现服务功能
+        service-id: service-config-ser #指定服务名称
+    bus:
+      enabled: true
+      trace:
         enabled: true
-        trace:
-          enabled: true
   rabbitmq: #RabbitMQ相关的配置
-        host: 127.0.0.1
-        port: 5672
-        username: guest
-        password: guest
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
@@ -25,5 +25,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
   instance:
-      prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
-      ipAddress: 127.0.0.1
+    prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+    ipAddress: 127.0.0.1

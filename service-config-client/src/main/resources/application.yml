@@ -6,5 +6,7 @@ spring:
     name: service-config-client
 
 management:
-  security:
-    enabled: false #是否开启actuator安全认证
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
