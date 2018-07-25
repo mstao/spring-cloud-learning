@@ -9,9 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>eureka-server</artifactId>
 
-    <name>eureka-server</name>
+    <artifactId>eureka-server-cluster</artifactId>
+
+    <name>eureka-server-cluster</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
