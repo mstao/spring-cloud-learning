@@ -10,7 +10,7 @@
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="service-config-client" />
-        <module name="service-config-server" />
+        <module name="service-conifg-ser" />
         <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
@@ -18,8 +18,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="service-config-client (1)" target="1.8" />
       <module name="service-config-server" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

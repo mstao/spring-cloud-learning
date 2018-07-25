@@ -10,6 +10,6 @@ spring:
         git:
           uri: https://github.com/mstao/spring-cloud-config
           searchPaths: /**
-      label: master
-      username:
-      password:
+          label: master
+          username:
+          password:

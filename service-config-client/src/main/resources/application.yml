@@ -1,0 +1,10 @@
+server:
+  port: 8882
+
+spring:
+  application:
+    name: service-config-client
+
+management:
+  security:
+    enabled: false #是否开启actuator安全认证
